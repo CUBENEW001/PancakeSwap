@@ -1,0 +1,62 @@
+
+
+.phishing{
+    display:flex;
+    width:100vw;
+    height:11.2vh;
+    background: linear-gradient(rgb(128, 81, 214) 0%, rgb(73, 34, 134) 100%);
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px,
+    
+}
+
+.bunny-container{
+    
+    width:18vw;
+}
+.phishing-bunny{
+    height:11.2vh;
+    width: 6.4vw;  
+    
+}
+
+.phi_position{
+    height:11vh;
+    width:89vw;
+    display:flex;
+    align-items: center;
+    justify-items: center;
+}
+.phishing_warn{
+    height: 9vh;
+    width: 57.5vw;
+        background: rgba(39, 38, 44, 0.4);
+        border-radius: 16px;
+        padding: 8px;
+      font-size: 12px;
+     align-items:center;
+     display: flex;
+     font-family: Kanit, sans-serif;
+     gap:2px;
+}
+
+
+.warn_position{
+width:60px;
+padding:0;
+align-items: flex-end;
+}
+
+.warnclose_button{
+    background-color:transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+}
+
+span{
+    text-align: center;
+}

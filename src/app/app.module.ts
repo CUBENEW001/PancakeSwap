@@ -10,6 +10,7 @@ import { FormPollComponent } from './designsystem/forms-container/form-poll/form
 import { FormSliderComponent } from './designsystem/forms-container/form-slider/form-slider.component';
 import { FormTextTradeComponent } from './designsystem/forms-container/form-text-trade/form-text-trade.component';
 import { NavbarComponent } from './designsystem/navbar/navbar/navbar.component';
+import { WarningBannerComponent } from './Core/warning-banner/warning-banner.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { NavbarComponent } from './designsystem/navbar/navbar/navbar.component';
     FormPollComponent,
     FormSliderComponent,
     FormTextTradeComponent,
-    NavbarComponent
+    NavbarComponent,
+    WarningBannerComponent
   ],
   imports: [
     BrowserModule
