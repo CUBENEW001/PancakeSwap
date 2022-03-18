@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { SliderService } from '@app/shared/services/forms/slider/slider.service';
 
 interface TypeSlider {
   type: 'forms' | 'footer';
@@ -14,7 +13,7 @@ export class FormSliderComponent implements OnInit {
 
   _typeslider: TypeSlider =  {type: 'forms'}
 
-  constructor(private sliderService : SliderService) { }
+  constructor() { }
 
  @Input() set typeslider(value: Partial<TypeSlider>) {
     this._typeslider = {...this._typeslider, ...value} 
@@ -22,11 +21,5 @@ export class FormSliderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  callSliderOn(event: any){
-    return this.sliderService.sliderOn(event)
-  }
-
-
 
 }

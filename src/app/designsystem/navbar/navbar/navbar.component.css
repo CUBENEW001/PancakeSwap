@@ -1,3 +1,6 @@
+/* ------------NAVBAR---------- */
+
+/* DA SISTEMARE IL FLEX */
 header,
 .navbar_menu_list,
 .navbar_dropdown-link,
@@ -221,7 +224,7 @@ header,
   margin-right: 8px;
 }
 
-.navbar_container_button1 .btn1 {
+.navbar_container_button1 .button1 {
   padding: 0 16px;
   height: 32px;
   cursor: pointer;
