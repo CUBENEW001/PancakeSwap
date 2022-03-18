@@ -1,5 +1,5 @@
 
-#phishing{
+.phishing{
     display:flex;
     width:100vw;
     height:11.2vh;
@@ -71,3 +71,83 @@ align-items: flex-end;
 span{
     text-align: center;
 }
+
+
+
+
+
+@media (min-width: 1281px) and (max-width: 2560px)  {
+    .phishing{
+        display:flex;
+        width:100vw;
+        height:7.4vh;
+        background: linear-gradient(rgb(128, 81, 214) 0%, rgb(73, 34, 134) 100%);
+        align-items:center;
+        justify-content: center;text-align: center;
+        padding: 0px,
+        }
+        
+        .bunny-container{
+        width:18.5vw;
+        }
+        .phishing-bunny{
+        height:auto;
+        width: 89px; 
+        
+        }
+        
+        .phi_position{
+        height:7.4vh;
+        width:86vw;
+        display:flex;
+        align-items: center;
+        justify-items: center;
+        }
+        .phishing_warn{
+        height: 6vh;
+        width: 58.3vw;
+        background: rgba(39, 38, 44, 0.4);
+        border-radius: 16px;
+    padding: 8px;
+        font-size:12px;
+        align-items:center;
+        display: flex;
+        font-family: Kanit, sans-serif;
+        gap:2px;
+        }
+        
+        
+        .warn_position{
+        margin-right: 3.1px;
+        padding:0;
+        display: flex;
+      justify-content: center;
+        }
+        
+        .warnclose_button{
+        background-color:transparent;
+        background-repeat:no-repeat;
+        border: none;
+        cursor:pointer;
+        overflow: hidden; 
+        }
+    
+        .gabbibo{
+        
+        width: 20px;
+        height: 20px;
+        
+        }
+    
+        .gabbibo:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active){
+        opacity:0.65;
+        }
+        span{
+        text-align: center;
+        }
+
+
+
+    }
+  
+
