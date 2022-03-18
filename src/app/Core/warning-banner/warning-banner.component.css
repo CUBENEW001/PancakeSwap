@@ -1,6 +1,6 @@
 
 
-#phishing{
+.phishing{
     display:flex;
     width:100vw;
     height:11.2vh;
@@ -14,11 +14,11 @@
 
 .bunny-container{
     
-    width:17.6vw;
+    width:18vw;
 }
 .phishing-bunny{
-    height:12vh;
-    width: 6.8vw;  
+    height:11.2vh;
+    width: 6.4vw;  
     
 }
 
@@ -31,7 +31,7 @@
 }
 .phishing_warn{
     height: 9vh;
-    width: 57.6vw;
+    width: 57.5vw;
         background: rgba(39, 38, 44, 0.4);
         border-radius: 16px;
         padding: 8px;
@@ -44,10 +44,9 @@
 
 
 .warn_position{
-width:4.8vw;
-height:4.3vh;
+width:60px;
 padding:0;
-align-items: center;
+align-items: flex-end;
 }
 
 .warnclose_button{
@@ -56,16 +55,8 @@ align-items: center;
     border: none;
     cursor:pointer;
     overflow: hidden; 
-    
-   
 }
 
- 
-.gabbibo{
-
-    width: 20px;
-    height: 20px;
-}
 span{
     text-align: center;
 }

@@ -7,11 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WarningBannerComponent implements OnInit {
 
-  isShow = true;
 
-  featureHide() {
-   this.isShow= false;
-  };
   constructor() { }
 
   ngOnInit(): void {
