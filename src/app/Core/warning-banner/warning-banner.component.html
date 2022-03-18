@@ -1,6 +1,4 @@
-<div class="phishing" ngif="isShow" >
-
-    
+<div id="phishing" [hidden]="!Luca">
 
     <div class="bunny-container">   
     </div>
@@ -37,9 +35,8 @@
 
     <div class="warn_position">
         
-        <button class="warnclose_button">
-            <img src="../assets/svg/xbutton.svg" alt="gabbibo">
-           </button>
+        <button class="warnclose_button" (click)="nasconDino()">
+            <img class="gabbibo" src="../assets/svg/xbutton.svg" > </button>
      </div>
 
 </div>
